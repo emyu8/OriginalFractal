@@ -40,7 +40,7 @@ public void fractachu(float x, float y, float s){
    
   if(s > 1){
    
-    fractachu(x, y+20, s*0.4);
+    fractachu(x, y, s*0.4);
     
   }
 }
