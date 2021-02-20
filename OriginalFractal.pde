@@ -22,8 +22,8 @@ public void fractachu(float x, float y, float s){
     endShape(CLOSE);
     
     fill(0);
-    circle(-17*s+x, -30*s+y, 5*s); // eyes
-    circle(21*s+x, -30*s+y, 5*s);
+    ellipse(-17*s+x, -30*s+y, 5*s, 5*s); // eyes
+    ellipse(21*s+x, -30*s+y, 5*s, 5*s);
     
     ellipse(2*s+x, -30*s+y, 2*s, s); // nose
     
@@ -32,8 +32,8 @@ public void fractachu(float x, float y, float s){
     ellipse(30*s+x, -20*s+y, 15*s, 12*s);
       
     fill(255);
-    circle(-18*s+x, -31*s+y, 2*s); // kawaii eyes
-    circle(20*s+x, -31*s+y, 2*s);
+    ellipse(-18*s+x, -31*s+y, 2*s, 2*s); // kawaii eyes
+    ellipse(20*s+x, -31*s+y, 2*s, 2*s);
     
     fill(250, 121, 95);
     ellipse(s+x, s+y, 56*s, 48*s); // mouth
